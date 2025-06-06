@@ -1,0 +1,66 @@
+
+# Invest in the Infrastructure of Global Storytelling
+
+> Trust the shelf, translate the world.  
+>  
+> 지금까지 없던 번역 인프라, 이제는 GloZ입니다.
+
+---
+
+## 🎥 소개 영상
+
+> 아래 인트로 영상을 먼저 확인해 주세요.
+
+📺 인트로 영상은 투자 자료 요청 후 확인하실 수 있습니다.
+
+---
+
+## 📩 투자 자료 요청
+
+> GloZ의 전체 피칭 자료 및 상세 영상을 보고 싶으신가요?
+
+GloZ의 여정을 함께하시겠다면,  
+먼저 간단한 정보를 입력해 주세요.
+
+✅ 내부 정보를 외부에 공유하지 않겠습니다.
+
+이메일을 입력해 주세요.  
+→ 제출하신 이메일로 자료가 전송됩니다.
+
+👉  
+<iframe data-tally-src="https://tally.so/embed/YOUR_TALLY_ID?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0" title="GloZ IR 요청 폼"></iframe>  
+<script>var d=document,s=d.createElement("script");s.src="https://tally.so/widgets/embed.js";s.onload=function(){Tally.loadEmbeds();};d.body.appendChild(s);</script>
+
+---
+
+## 📆 미팅 예약
+
+> 더 깊은 이야기를 나누고 싶으신가요?  
+> 글로리아와 1:1 미팅을 예약해 주세요.
+
+📅 [미팅 잡기 (Calendly)](https://calendly.com/gloria-glozinc/30min)
+
+자동 Google Meet 생성 포함  
+*오프라인 미팅도 가능합니다*
+
+---
+
+## 🧾 About GloZ
+
+- Netflix, HYBE, Weverse, Amazon Prime 등과 협업  
+- 70개국 언어로 190개 국가에 콘텐츠 런칭  
+- 전세계 최고 번역작가들과 실전 데이터를 기반으로  
+  AI를 훈련시키는 유일한 번역 인프라 기업
+
+---
+
+### 📬 문의
+
+📧 [gloria@glozinc.com](mailto:gloria@glozinc.com)  
+🌐 [www.glozinc.com](https://www.glozinc.com/)
+
+---
+
+© 2025 GloZ Inc. All rights reserved.
+
+![GloZ Logo](https://i.imgur.com/6bhPBrY.png)

@@ -437,4 +437,22 @@ iframe {
 
 .mid-align > * {
     text-align: center !important;
+}
+
+.center-blockquote {
+    display: block;
+    text-align: center !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dark-tally {
+    background: #000 !important;
+    color: #fff !important;
+    border-radius: 18px;
+    box-shadow: 0 4px 32px rgba(250,208,44,0.12);
+}
+
+blockquote {
+    text-align: center !important;
 } 

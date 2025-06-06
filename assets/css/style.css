@@ -1,11 +1,11 @@
 :root {
     --bg-color: #000000;
     --text-color: #ffffff;
-    --accent-color: #00ff9d;
+    --accent-color: #863BD8;
     --secondary-color: #333333;
     --card-bg: #111111;
     --border-color: #333333;
-    --hover-color: #00cc7d;
+    --hover-color: #a97cff;
 }
 
 * {
@@ -30,19 +30,23 @@ body {
 
 /* Header */
 .site-header {
-    background-color: var(--bg-color);
-    padding: 2rem 0;
-    border-bottom: 1px solid var(--border-color);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    backdrop-filter: blur(10px);
+    background: none;
+    border: none;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
-.logo {
-    height: 40px;
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo.large-logo {
+    height: 120px;
     width: auto;
+    margin-bottom: 2rem;
 }
 
 /* Main Content */
@@ -51,17 +55,16 @@ body {
 }
 
 .section {
-    background-color: var(--card-bg);
+    background: var(--card-bg);
     border-radius: 16px;
-    padding: 3rem;
-    margin: 2rem 0;
+    padding: 2.5rem 2rem;
+    margin: 2.5rem auto;
     border: 1px solid var(--border-color);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.section:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 255, 157, 0.1);
+    max-width: 600px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+    position: relative;
+    z-index: 10;
+    text-align: center;
 }
 
 h1 {
@@ -212,8 +215,12 @@ iframe {
     }
 
     .section {
-        padding: 2rem;
+        padding: 1.2rem 0.5rem;
     }
+
+    .logo.large-logo { height: 70px; }
+    .hero h1 { font-size: 2.2rem; }
+    .hero { min-height: 40vh; }
 }
 
 /* Animations */
@@ -234,14 +241,54 @@ iframe {
 
 /* Hero Section */
 .hero {
-    text-align: center;
-    padding: 4rem 3rem;
-    background: linear-gradient(45deg, var(--card-bg), var(--secondary-color));
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: url('/assets/img/earth-hero.jpg') center center/cover no-repeat;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 2;
 }
 
 .hero h1 {
+    position: relative;
+    z-index: 3;
     font-size: 4rem;
+    font-weight: 900;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    line-height: 1.05;
+    text-align: center;
     margin-bottom: 2rem;
+    text-shadow: 0 4px 32px #000, 0 2px 8px #863BD844;
+}
+
+.hero blockquote {
+    position: relative;
+    z-index: 3;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto 2rem auto;
+    padding: 0;
 }
 
 /* Video Container */
@@ -302,19 +349,4 @@ iframe {
     font-style: italic;
     text-align: center;
     margin-top: 1rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero {
-        padding: 3rem 1.5rem;
-    }
-
-    .chat-container {
-        height: 400px;
-    }
 } 

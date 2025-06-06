@@ -422,4 +422,19 @@ iframe {
     h2 { font-size: 1.3rem; }
     .main-content { padding: 16px 2vw; }
     .video-embed, .form-embed { border-radius: 10px; }
+}
+
+.mid-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 30vh;
+    margin: 0 auto 2.5rem auto;
+    width: 100%;
+}
+
+.mid-align > * {
+    text-align: center !important;
 } 

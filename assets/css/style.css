@@ -33,17 +33,21 @@ body {
     padding: 0 16px;
 }
 
-section, .mid-align {
+section {
     width: 100%;
     max-width: 750px;
     margin: 0 auto;
-    padding: 80px 0;
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
+}
+
+section:first-child {
+    padding-top: 24px;
 }
 
 section:not(:last-child)::after {
@@ -53,7 +57,7 @@ section:not(:last-child)::after {
     height: 1px;
     background: linear-gradient(90deg, #222 0%, #5D3FD3 50%, #222 100%);
     opacity: 0.18;
-    margin: 80px auto 0 auto;
+    margin: 40px auto 0 auto;
 }
 
 h1, h2, h3 {
@@ -65,9 +69,14 @@ h1, h2, h3 {
     margin-top: 0;
 }
 
-h1 { font-size: 36px; }
+h1 { font-size: 48px; margin-top: 24px; }
 h2 { font-size: 28px; }
 h3 { font-size: 22px; }
+
+.hero-image {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
 
 p, .about-gloz-line {
     color: #f5f5f5;
@@ -145,11 +154,12 @@ ul, li {
     .main-content, section, .tally-embed, .video-embed { max-width: 98vw; }
 }
 @media (max-width: 600px) {
-    h1 { font-size: 26px; }
+    h1 { font-size: 32px; }
     h2 { font-size: 20px; }
     .main-content { padding: 0 2vw; }
-    section { padding: 40px 0; }
+    section { padding: 24px 0; }
     .tally-embed, .video-embed { border-radius: 8px; }
+    .hero-image { margin-top: 16px; margin-bottom: 12px; }
 }
 
 /* Header */

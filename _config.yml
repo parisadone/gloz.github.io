@@ -1,3 +1,20 @@
-theme: jekyll-theme-minimal
 title: GloZ
-description: Invest in the Infrastructure of Global Storytelling 
+description: Invest in the Infrastructure of Global Storytelling
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - .github/ 

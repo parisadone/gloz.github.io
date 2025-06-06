@@ -1,38 +1,160 @@
-
-# 🔐 GloZ Investor 자료 열람
-
-> GloZ의 비공개 자료에 접근하신 것을 환영합니다.  
-> 이 페이지는 NDA 및 정보요청을 완료하신 분들만 접근 가능합니다.
-
+---
+layout: default
+title: GloZ Secure Investor Materials
+permalink: /secure/
 ---
 
-## 🎥 인트로 영상
+<div class="secure-container">
+  <section class="secure-section">
+    <h1>감사합니다!</h1>
+    <p>이메일로 자료 전달드렸으며,<br>이 페이지에서도 간편하게 보실 수 있습니다.</p>
+  </section>
 
-📺 [인트로 영상 보기](https://youtu.be/YOUR_VIDEO_LINK)
+  <section class="secure-section">
+    <h2>📽️ IR 발표 영상 보기</h2>
+    <div class="secure-video">
+      <iframe src="https://www.youtube.com/embed/gkzAsE0jUa0?controls=1&rel=0&modestbranding=1&showinfo=0" allow="autoplay; encrypted-media" allowfullscreen title="GloZ IR 발표 영상"></iframe>
+    </div>
+  </section>
 
-*(외부 공유는 금지되어 있습니다)*
+  <section class="secure-section">
+    <h2>📄 피칭 자료 보기</h2>
+    <a class="secure-link" href="https://www.canva.com/design/DAGoiBy73Gs/LCxaXBhydJve1AXfl-lGnQ/edit?utm_content=DAGoiBy73Gs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Canva IR 자료 바로가기</a>
+  </section>
 
----
+  <section class="secure-section">
+    <h2>🤖 Gloria's AI에게 질문하기</h2>
+    <div class="secure-chatbot">
+      <iframe src="https://www.chatbase.co/chatbot-iframe/ezFbMXxV7R06quetaNfCc" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
 
-## 🤖 Gloria’s AI – 궁금한 점을 AI에게 직접 물어보세요
+  <section class="secure-section">
+    <h2>📅 미팅 예약</h2>
+    <a class="cta-btn" href="https://calendly.com/gloria-glozinc/30min" target="_blank">글로리아와 미팅 일정 예약하기</a>
+  </section>
 
-💬 [챗봇 열기](https://www.chatbase.co/chatbot-iframe/ezFbMXxV7R06quetaNfCc)
+  <div class="secure-footer">© 2025 GloZ Inc. All rights reserved.</div>
+</div>
 
----
-
-## 📑 IR 발표자료
-
-> GloZ의 전체 IR 자료 (Canva 프레젠테이션 링크)
-
-📄 [IR 발표자료 보기](https://www.canva.com/design/DAGoiBy73Gs/LCxaXBhydJve1AXfl-lGnQ/edit?utm_content=DAGoiBy73Gs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
----
-
-### 📬 추가 문의
-
-궁금한 점이 있으시면 언제든 gloria@glozinc.com 으로 연락 주세요.  
-또는 [미팅을 예약](https://calendly.com/gloria-glozinc/30min)하시면 1:1 미팅도 가능합니다.
-
----
-
-© 2025 GloZ Inc. All rights reserved.
+<style>
+  body {
+    background: #000;
+    color: #fff;
+    font-family: 'Spoqa Han Sans Neo', 'Pretendard', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .secure-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+  }
+  .secure-section {
+    padding: 80px 0;
+    border: none;
+  }
+  h1, h2, h3 {
+    color: #fff;
+    font-family: 'Spoqa Han Sans Neo', 'Pretendard', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+  h1 { font-size: 2.1rem; }
+  h2 { font-size: 1.4rem; }
+  p, a, .secure-link {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    text-align: center;
+    font-family: 'Spoqa Han Sans Neo', 'Pretendard', Arial, Helvetica, sans-serif;
+  }
+  .secure-link {
+    color: #5D3FD3;
+    font-weight: 700;
+    text-decoration: underline;
+    word-break: break-all;
+    display: inline-block;
+    background: #181818;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin: 16px 0;
+    transition: background 0.2s;
+  }
+  .secure-link:hover {
+    background: #2a2a2a;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: #5D3FD3;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 18px 36px;
+    margin: 32px 0 0 0;
+    text-decoration: none;
+    font-size: 1.15rem;
+    transition: background 0.2s;
+    box-shadow: 0 4px 24px rgba(93,63,211,0.10);
+  }
+  .cta-btn:hover {
+    background: #3d278a;
+  }
+  .secure-video {
+    position: relative;
+    width: 100%;
+    max-width: 750px;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 0 auto 0 auto;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(93,63,211,0.10);
+  }
+  .secure-video iframe {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%; border: 0;
+  }
+  .secure-chatbot {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px rgba(250,208,44,0.10);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    background: #181818;
+  }
+  .secure-chatbot iframe {
+    width: 100%;
+    min-height: 600px;
+    border: none;
+    border-radius: 14px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+  }
+  .secure-footer {
+    color: #888;
+    font-size: 0.95rem;
+    margin: 60px 0 24px 0;
+    text-align: center;
+  }
+  @media (max-width: 900px) {
+    .secure-container, .secure-video, .secure-chatbot { max-width: 98vw; }
+  }
+  @media (max-width: 600px) {
+    h1 { font-size: 1.3rem; }
+    h2 { font-size: 1.1rem; }
+    .secure-container { padding: 0 2vw; }
+    .secure-section { padding: 40px 0; }
+    .secure-video, .secure-chatbot { border-radius: 8px; }
+  }
+</style>

@@ -5,11 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     {% seo %}
 </head>
 <body>
-    <div class="container">
-        {{ content }}
-    </div>
+    <header class="site-header">
+        <div class="container">
+            <img src="https://i.imgur.com/6bhPBrY.png" alt="GloZ Logo" class="logo">
+        </div>
+    </header>
+
+    <main class="site-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 GloZ Inc. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html> 

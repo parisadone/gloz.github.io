@@ -45,6 +45,7 @@ window.onload = checkAccess;
 
     <section class="secure-section">
       <h2>📄 피칭 자료 보기</h2>
+      <a class="secure-link" href="https://glozfundraising2026.my.canva.site/" target="_blank">Canva IR 자료 바로가기</a>
       <div class="secure-presentation">
         <iframe src="https://glozfundraising2026.my.canva.site/" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allowfullscreen></iframe>
       </div>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GloZ Secure Investor Materials
-permalink: /secure/
+permalink: /gloz.github.io/secure/
 ---
 
 <div class="secure-container">

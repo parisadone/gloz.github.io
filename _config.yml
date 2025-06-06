@@ -1,7 +1,7 @@
 title: GloZ
 description: Invest in the Infrastructure of Global Storytelling
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://parisadone.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -9,6 +9,20 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
 
 # Exclude from processing
 exclude:

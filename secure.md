@@ -4,39 +4,66 @@ title: GloZ Secure Investor Materials
 permalink: /gloz.github.io/secure/
 ---
 
-<div class="secure-container">
-  <section class="secure-section">
-    <h1>감사합니다!</h1>
-    <p>이메일로 자료 전달드렸으며,<br>이 페이지에서도 간편하게 보실 수 있습니다.</p>
-  </section>
+<script>
+// Check for access token
+function checkAccess() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const token = urlParams.get('token');
+  
+  if (!token) {
+    document.body.innerHTML = `
+      <div style="text-align: center; padding: 40px; color: white; font-family: 'Spoqa Han Sans Neo', 'Pretendard', Arial, Helvetica, sans-serif;">
+        <h1>접근이 제한된 페이지입니다</h1>
+        <p>이 페이지는 투자 자료 요청을 완료하신 분들만 접근 가능합니다.</p>
+        <a href="/" style="color: #5D3FD3; text-decoration: underline;">메인 페이지로 돌아가기</a>
+      </div>
+    `;
+    return;
+  }
 
-  <section class="secure-section">
-    <h2>📽️ IR 발표 영상 보기</h2>
-    <div class="secure-video">
-      <iframe src="https://www.youtube.com/embed/gkzAsE0jUa0?controls=1&rel=0&modestbranding=1&showinfo=0" allow="autoplay; encrypted-media" allowfullscreen title="GloZ IR 발표 영상"></iframe>
-    </div>
-  </section>
+  // Show the content
+  document.getElementById('secure-content').style.display = 'block';
+}
 
-  <section class="secure-section">
-    <h2>📄 피칭 자료 보기</h2>
-    <div class="secure-presentation">
-      <iframe src="https://glozfundraising2026.my.canva.site/embed" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </section>
+// Run check when page loads
+window.onload = checkAccess;
+</script>
 
-  <section class="secure-section">
-    <h2>🤖 Gloria's AI에게 질문하기</h2>
-    <div class="secure-chatbot">
-      <iframe src="https://www.chatbase.co/chatbot-iframe/ezFbMXxV7R06quetaNfCc" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </section>
+<div id="secure-content" style="display: none;">
+  <div class="secure-container">
+    <section class="secure-section">
+      <h1>감사합니다!</h1>
+      <p>이메일로 자료 전달드렸으며,<br>이 페이지에서도 간편하게 보실 수 있습니다.</p>
+    </section>
 
-  <section class="secure-section">
-    <h2>📅 미팅 예약</h2>
-    <a class="cta-btn" href="https://calendly.com/gloria-glozinc/30min" target="_blank">글로리아와 미팅 일정 예약하기</a>
-  </section>
+    <section class="secure-section">
+      <h2>📽️ IR 발표 영상 보기</h2>
+      <div class="secure-video">
+        <iframe src="https://www.youtube.com/embed/gkzAsE0jUa0?controls=1&rel=0&modestbranding=1&showinfo=0" allow="autoplay; encrypted-media" allowfullscreen title="GloZ IR 발표 영상"></iframe>
+      </div>
+    </section>
 
-  <div class="secure-footer">© 2025 GloZ Inc. All rights reserved.</div>
+    <section class="secure-section">
+      <h2>📄 피칭 자료 보기</h2>
+      <div class="secure-presentation">
+        <iframe src="https://glozfundraising2026.my.canva.site/embed" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="secure-section">
+      <h2>🤖 Gloria's AI에게 질문하기</h2>
+      <div class="secure-chatbot">
+        <iframe src="https://www.chatbase.co/chatbot-iframe/ezFbMXxV7R06quetaNfCc" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="secure-section">
+      <h2>📅 미팅 예약</h2>
+      <a class="cta-btn" href="https://calendly.com/gloria-glozinc/30min" target="_blank">글로리아와 미팅 일정 예약하기</a>
+    </section>
+
+    <div class="secure-footer">© 2025 GloZ Inc. All rights reserved.</div>
+  </div>
 </div>
 
 <style>

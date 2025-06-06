@@ -19,7 +19,9 @@ permalink: /gloz.github.io/secure/
 
   <section class="secure-section">
     <h2>📄 피칭 자료 보기</h2>
-    <a class="secure-link" href="https://www.canva.com/design/DAGoiBy73Gs/LCxaXBhydJve1AXfl-lGnQ/edit?utm_content=DAGoiBy73Gs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Canva IR 자료 바로가기</a>
+    <div class="secure-presentation">
+      <iframe src="https://glozfundraising2026.my.canva.site/embed" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allowfullscreen></iframe>
+    </div>
   </section>
 
   <section class="secure-section">
@@ -146,6 +148,29 @@ permalink: /gloz.github.io/secure/
     font-size: 0.95rem;
     margin: 60px 0 24px 0;
     text-align: center;
+  }
+  .secure-presentation {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px rgba(250,208,44,0.10);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    background: #181818;
+  }
+  .secure-presentation iframe {
+    width: 100%;
+    min-height: 600px;
+    border: none;
+    border-radius: 14px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
   }
   @media (max-width: 900px) {
     .secure-container, .secure-video, .secure-chatbot { max-width: 98vw; }

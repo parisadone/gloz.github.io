@@ -37,13 +37,6 @@ window.onload = checkAccess;
     </section>
 
     <section class="secure-section">
-      <h2>📽️ IR 발표 영상 보기</h2>
-      <div class="secure-video">
-        <iframe src="https://www.youtube.com/embed/gkzAsE0jUa0?controls=1&rel=0&modestbranding=1&showinfo=0" allow="autoplay; encrypted-media" allowfullscreen title="GloZ IR 발표 영상"></iframe>
-      </div>
-    </section>
-
-    <section class="secure-section">
       <h2>📄 피칭 자료 보기</h2>
       <div class="secure-presentation">
         <iframe src="https://glozfundraising2026.my.canva.site" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0" allowfullscreen></iframe>

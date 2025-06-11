@@ -39,7 +39,7 @@ window.onload = checkAccess;
     <section class="secure-section">
       <h2>📄 피칭 자료 보기</h2>
       <div class="secure-presentation">
-        <iframe src="/assets/ir-deck.pdf" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0"></iframe>
+        <iframe src="/assets/GloZ-Fundraising-2026.pdf" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0"></iframe>
       </div>
     </section>
 

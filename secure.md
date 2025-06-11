@@ -38,8 +38,8 @@ window.onload = checkAccess;
 
     <section class="secure-section">
       <h2>📄 피칭 자료 보기</h2>
-      <div class="secure-presentation">
-        <iframe src="https://parisadone.github.io/gloz.github.io/assets/GloZ-Fundraising-2026.pdf" width="100%" height="600" style="border-radius:14px; background:#fff;" frameborder="0"></iframe>
+      <div class="secure-presentation" style="max-width:98vw; margin:0 auto;">
+        <iframe src="https://parisadone.github.io/gloz.github.io/assets/GloZ-Fundraising-2026.pdf#view=FitH" width="98vw" height="1200" style="border-radius:14px; background:#fff; display:block; margin:0 auto;" frameborder="0"></iframe>
       </div>
     </section>
 
